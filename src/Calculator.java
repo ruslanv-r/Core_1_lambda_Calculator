@@ -19,8 +19,8 @@ public class Calculator {
 //            return x / y;
 //        }
         try {
-            return x/y;
-        } catch (ArithmeticException e){
+            return x / y;
+        } catch (ArithmeticException e) {
             return Integer.MAX_VALUE;
         }
 
@@ -31,6 +31,6 @@ public class Calculator {
 
     Predicate<Integer> isPositive = x -> x > 0;
 
-    Consumer<Integer> println = c ->System.out.println((c));
+    Consumer<Integer> println = c -> System.out.println((c));
 
 }
