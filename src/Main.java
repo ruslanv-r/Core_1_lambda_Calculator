@@ -10,6 +10,7 @@ public class Main {
         int b = calc.minus.apply(1,1);
         int c = calc.devide.apply(a, b);
 
-        calc.println.accept(c);
+       calc.println.accept(c);
+
     }
 }
